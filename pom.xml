@@ -7,10 +7,17 @@
     <groupId>org.example</groupId>
     <artifactId>md5-hashat-password</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.maven.shared</groupId>
+            <artifactId>maven-repository-builder</artifactId>
+            <version>1.0-alpha-2</version>
+        </dependency>
+    </dependencies>
 
     <properties>
         <maven.compiler.source>19</maven.compiler.source>
         <maven.compiler.target>19</maven.compiler.target>
     </properties>
-    
+
 </project>
